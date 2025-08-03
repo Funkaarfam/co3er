@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Co3er TOOLS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: radial-gradient(ellipse at center, #080e1f 0%, #010409 100%);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+      margin: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 700;
+      background: linear-gradient(to right, #00cfff, #b764ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .logo img {
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border-radius: 30px;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      background: linear-gradient(to right, #00cfff, #b764ff);
+      color: #fff;
+      box-shadow: 0 0 15px #00f0ff;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      box-shadow: 0 0 25px #00f0ff;
+    }
+
+    .main {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #10121a;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-bottom: 20px;
+      border: 1px solid #2c2f4a;
+    }
+
+    h1 {
+      font-size: 60px;
+      font-weight: 900;
+      color: #fff;
+    }
+
+    .gradient {
+      background: linear-gradient(to right, #00cfff, #ff00c3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .desc {
+      margin-top: 20px;
+      color: #bbb;
+      font-size: 18px;
+    }
+
+    .actions {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .secondary-btn {
+      background: #111;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 30px;
+      border: 1px solid #333;
+      transition: 0.3s;
+      display: inline-block;
+    }
+
+    .secondary-btn:hover {
+      background: #222;
+    }
+
+    /* FEATURE SECTION */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 100px 40px 40px 40px;
+    }
+
+    .feature-card {
+      background: #10121a;
+      border: 1px solid #2c2f4a;
+      border-radius: 15px;
+      padding: 20px;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .feature-card:hover {
+      transform: scale(1.03);
+      border-color: #00cfff;
+    }
+
+    .feature-card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #00cfff;
+    }
+
+    .feature-card p {
+      color: #bbb;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="067150ff-12a8-48dd-9fc2-69b3473d433b.png" alt="logo">
+      Co3er Tool
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#features">Features</a>
+      <a href="#download-platforms">Download</a>
+    </nav>
+    <button class="btn">Get Started</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="main">
+    <div class="badge">📌 Open Source Discord Raid Tool</div>
+    <h1><span class="gradient">Co3er</span><br><span class="gradient">Tools</span></h1>
+    <p class="desc">Unleash control with Co3er Tool. Only for 0$</p>
+    <div class="actions">
+      <a href="Co3er.zip" download class="btn">⬇ Download Free</a>
+      <a class="secondary-btn" href="#">🔗 View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- Features Heading -->
+  <h2 style="text-align: center; color: #fff; font-size: 36px; margin-top: 100px;">FEATURES</h2>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="feature-card">
+      <h3>💸 Free Forever</h3>
+      <p>No subscriptions, no tricks. You get the full experience without paying a cent.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🧠 Smart UI</h3>
+      <p>Made for humans. Simple interface even your cat could operate.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🚀 Fast as Hell</h3>
+      <p>Optimized speed with multi-threaded magic. It’s seriously fast.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🛡️ Anti-Detection</h3>
+      <p>Bypasses most common filters and shields. Sneaky but safe.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🔌 Proxy Compatible</h3>
+      <p>Supports rotating and static proxies. Works globally, effortlessly.</p>
+    </div>
+  </section>
+
+  <!-- Download Free Button BELOW Features -->
+  <div style="text-align: center; margin: 40px;">
+    <a href="#download-platforms" class="btn">⬇ Download Free</a>
+  </div>
+
+  <!-- DOWNLOAD SECTION -->
+  <section id="download-platforms" class="main">
+    <div class="badge">GET STARTED</div>
+    <h1>Download Co3er Tool</h1>
+    <p class="desc">Officially supported on Windows only. Other platforms may work but are not maintained.</p>
+
+    <div class="features" style="margin-top: 50px;">
+      <!-- Windows -->
+      <div class="feature-card" style="border: 1px solid #00cfff;">
+        <h3 style="color: #00cfff;">🪟 Windows</h3>
+        <p>Fully compatible with Windows 10/11.</p>
+        <a href="Go6Raider.exe" class="btn" style="
+          background: linear-gradient(90deg, #00f0ff, #c850ff);
+          box-shadow: 0 0 15px #00f0ff;
+          display: inline-block;
+          margin-top: 15px;
+        ">Download (.exe)</a>
+      </div>
+
+      <!-- macOS -->
+      <div class="feature-card">
+        <h3 style="color: #00cfff;">🍎 macOS</h3>
+        <p>Not officially supported.</p>
+        <div class="secondary-btn" style="
+          background-color: #1a1a1a;
+          border-radius: 25px;
+          padding: 10px 18px;
+          margin-top: 15px;
+          border: 1px solid #444;
+          color: #f0f0f0;
+        ">⚠ Not Supported</div>
+      </div>
+
+      <!-- Linux -->
+      <div class="feature-card">
+        <h3 style="color: #00cfff;">🐧 Linux</h3>
+        <p>Not officially supported.</p>
+        <div class="secondary-btn" style="
+          background-color: #1a1a1a;
+          border-radius: 25px;
+          padding: 10px 18px;
+          margin-top: 15px;
+          border: 1px solid #444;
+          color: #f0f0f0;
+        ">⚠ Not Supported</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Co3er Team. All rights reserved.</p>
+  </footer>
+</body>
+</html>
